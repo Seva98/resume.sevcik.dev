@@ -4,6 +4,6 @@ author: ondrej
 ---
 # Hello World - Day 0
 
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+1. Have working Jekyll template (even though it is lame without design), site is running on sevcik.dev
+2. Added deploy script for Jekyll so I don't need to write same code over and over again
+3. Almost all filters in WTC are working (except time), need to figure out how to filter time as it varies a lot by difficulty
