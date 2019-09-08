@@ -1,7 +1,7 @@
 ---
 layout: post
 author: ondrej
-title: Hello World - Day 0
+title: Day 0 - Hello World
 ---
 
 1. Have working Jekyll template (even though it is lame without design), site is running on sevcik.dev

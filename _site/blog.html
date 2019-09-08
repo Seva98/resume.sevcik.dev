@@ -4,54 +4,55 @@
     <meta charset="utf-8">
     <title>Blog</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/bulma.css">
   </head>
   <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
     
-      <a href="/"  class="navbar-item">Home</a>
     
-      <a href="/about.html"  class="navbar-item">About</a>
+    <a href="/" class="navbar-item">Home</a>
+     
     
-      <a href="/blog.html" class="current" class="navbar-item">Blog</a>
     
-      <a href="/staff.html"  class="navbar-item">Staff</a>
+    <a href="/about.html" class="navbar-item">About</a>
+     
+    
+    
+    <a href="/blog.html" class="navbar-item current">Blog</a>
+     
+    
+    
+    <a href="/staff.html" class="navbar-item">Staff</a>
+     
     
   </nav>
-    <h1>Latest Posts</h1>
-
-<ul>
+    <div class="section">
+  <h1 class="title">Latest Posts</h1>
   
-    <li>
-      <h2><a href="/2019/09/07/Hello-world.html">Hello World - Day 0</a></h2>
-      <p><ol>
+  <div class="container">
+    <ul class="list">
+      
+        <li class="list-item">
+          <h2 class="subtitle"><a href="/2019/09/08/Integrating-Bulma.html">Day 1 - Changing style with Bulma</a></h2>
+          <p><ol>
+  <li>I was able to add Bulma css to this blog.</li>
+  <li>Changed styles of blog and posts so they look nicer with Bulma.</li>
+  <li>Added inheritance of <code class="highlighter-rouge">.list</code> and <code class="highlighter-rouge">.list-item</code> to <code class="highlighter-rouge">ul</code>, <code class="highlighter-rouge">ol</code> and <code class="highlighter-rouge">li</code> so the text from markdown is properly formated. For example this list now looks cool :)</li>
+</ol>
+</p>
+        </li>
+      
+        <li class="list-item">
+          <h2 class="subtitle"><a href="/2019/09/07/Hello-world.html">Day 0 - Hello World</a></h2>
+          <p><ol>
   <li>Have working Jekyll template (even though it is lame without design), site is running on sevcik.dev</li>
   <li>Added deploy script for Jekyll so I don’t need to write same code over and over again</li>
   <li>Almost all filters in WTC are working (except time), need to figure out how to filter time as it varies a lot by difficulty</li>
 </ol>
 </p>
-    </li>
-  
-    <li>
-      <h2><a href="/2019/09/07/First-post.html">First post</a></h2>
-      <p><p>A banana is an edible fruit – botanically a berry – produced by several kinds
-of large herbaceous flowering plants in the genus Musa.</p>
-</p>
-    </li>
-  
-    <li>
-      <h2><a href="/2019/09/01/kiwi.html">Kiwi</a></h2>
-      <p><p>Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
-berry of several species of woody vines in the genus Actinidia.</p>
-</p>
-    </li>
-  
-    <li>
-      <h2><a href="/2018/08/21/apples.html">Apples</a></h2>
-      <p><p>An apple is a sweet, edible fruit produced by an apple tree.</p>
-</p>
-    </li>
-  
-</ul>
+        </li>
+      
+    </ul>
+  </div>
+</div>
   </body>
 </html>
