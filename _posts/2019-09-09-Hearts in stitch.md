@@ -1,7 +1,7 @@
 ---
 layout: post
 author: ondrej
-title: Day 1 - Hearts in Stitch
+title: Day 2 - Hearts in Stitch
 ---
 ## WTC
 1. Worked little with functions and triggers in Stitch
