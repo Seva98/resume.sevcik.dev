@@ -1,7 +1,7 @@
 ---
 layout: post
 author: ondrej
-title: Day 3 - Changing style with Bulma
+title: Day 3 - Stitch functions
 ---
 ## WTC
 1. Added functions to Stitch that trigger whenever like has been added or removed
