@@ -8,7 +8,7 @@
 
 .select:not(.is-multiple):not(.is-loading)::after, .navbar-link:not(.is-arrowless)::after { border: 3px solid transparent; border-radius: 2px; border-right: 0; border-top: 0; content: " "; display: block; height: 0.625em; margin-top: -0.4375em; pointer-events: none; position: absolute; top: 50%; transform: rotate(-45deg); transform-origin: center; width: 0.625em; }
 
-.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child), .subtitle:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .list:not(:last-child), ol:not(:last-child), ul:not(:last-child), .message:not(:last-child), .tabs:not(:last-child) { margin-bottom: 1.5rem; }
+.box:not(:last-child), .content:not(:last-child), .notification:not(:last-child), .progress:not(:last-child), .table:not(:last-child), .table-container:not(:last-child), .title:not(:last-child), h1:not(:last-child), .subtitle:not(:last-child), h2:not(:last-child), .block:not(:last-child), .highlight:not(:last-child), .breadcrumb:not(:last-child), .level:not(:last-child), .list:not(:last-child), ol:not(:last-child), ul:not(:last-child), .message:not(:last-child), .tabs:not(:last-child) { margin-bottom: 1.5rem; }
 
 .delete, .modal-close { -moz-appearance: none; -webkit-appearance: none; background-color: rgba(10, 10, 10, 0.2); border: none; border-radius: 290486px; cursor: pointer; pointer-events: auto; display: inline-block; flex-grow: 0; flex-shrink: 0; font-size: 0; height: 20px; max-height: 20px; max-width: 20px; min-height: 20px; min-width: 20px; outline: none; position: relative; vertical-align: top; width: 20px; }
 
@@ -1170,7 +1170,7 @@ a.box:active { box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #327
 
 .notification > .delete { position: absolute; right: 0.5rem; top: 0.5rem; }
 
-.notification .title, .notification .subtitle, .notification .content { color: currentColor; }
+.notification .title, .notification h1, .notification .subtitle, .notification h2, .notification .content { color: currentColor; }
 
 .notification.is-white { background-color: white; color: #0a0a0a; }
 
@@ -1449,57 +1449,57 @@ a.box:active { box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #327
 
 a.tag:hover { text-decoration: underline; }
 
-.title, .subtitle { word-break: break-word; }
+.title, h1, .subtitle, h2 { word-break: break-word; }
 
-.title em, .title span, .subtitle em, .subtitle span { font-weight: inherit; }
+.title em, h1 em, .title span, h1 span, .subtitle em, h2 em, .subtitle span, h2 span { font-weight: inherit; }
 
-.title sub, .subtitle sub { font-size: 0.75em; }
+.title sub, h1 sub, .subtitle sub, h2 sub { font-size: 0.75em; }
 
-.title sup, .subtitle sup { font-size: 0.75em; }
+.title sup, h1 sup, .subtitle sup, h2 sup { font-size: 0.75em; }
 
-.title .tag, .subtitle .tag { vertical-align: middle; }
+.title .tag, h1 .tag, .subtitle .tag, h2 .tag { vertical-align: middle; }
 
-.title { color: #363636; font-size: 2rem; font-weight: 600; line-height: 1.125; }
+.title, h1 { color: #363636; font-size: 2rem; font-weight: 600; line-height: 1.125; }
 
-.title strong { color: inherit; font-weight: inherit; }
+.title strong, h1 strong { color: inherit; font-weight: inherit; }
 
-.title + .highlight { margin-top: -0.75rem; }
+.title + .highlight, h1 + .highlight { margin-top: -0.75rem; }
 
-.title:not(.is-spaced) + .subtitle { margin-top: -1.25rem; }
+.title:not(.is-spaced) + .subtitle, h1:not(.is-spaced) + .subtitle, .title:not(.is-spaced) + h2, h1:not(.is-spaced) + h2 { margin-top: -1.25rem; }
 
-.title.is-1 { font-size: 3rem; }
+.title.is-1, h1.is-1 { font-size: 3rem; }
 
-.title.is-2 { font-size: 2.5rem; }
+.title.is-2, h1.is-2 { font-size: 2.5rem; }
 
-.title.is-3 { font-size: 2rem; }
+.title.is-3, h1.is-3 { font-size: 2rem; }
 
-.title.is-4 { font-size: 1.5rem; }
+.title.is-4, h1.is-4 { font-size: 1.5rem; }
 
-.title.is-5 { font-size: 1.25rem; }
+.title.is-5, h1.is-5 { font-size: 1.25rem; }
 
-.title.is-6 { font-size: 1rem; }
+.title.is-6, h1.is-6 { font-size: 1rem; }
 
-.title.is-7 { font-size: 0.75rem; }
+.title.is-7, h1.is-7 { font-size: 0.75rem; }
 
-.subtitle { color: #4a4a4a; font-size: 1.25rem; font-weight: 400; line-height: 1.25; }
+.subtitle, h2 { color: #4a4a4a; font-size: 1.25rem; font-weight: 400; line-height: 1.25; }
 
-.subtitle strong { color: #363636; font-weight: 600; }
+.subtitle strong, h2 strong { color: #363636; font-weight: 600; }
 
-.subtitle:not(.is-spaced) + .title { margin-top: -1.25rem; }
+.subtitle:not(.is-spaced) + .title, h2:not(.is-spaced) + .title, .subtitle:not(.is-spaced) + h1, h2:not(.is-spaced) + h1 { margin-top: -1.25rem; }
 
-.subtitle.is-1 { font-size: 3rem; }
+.subtitle.is-1, h2.is-1 { font-size: 3rem; }
 
-.subtitle.is-2 { font-size: 2.5rem; }
+.subtitle.is-2, h2.is-2 { font-size: 2.5rem; }
 
-.subtitle.is-3 { font-size: 2rem; }
+.subtitle.is-3, h2.is-3 { font-size: 2rem; }
 
-.subtitle.is-4 { font-size: 1.5rem; }
+.subtitle.is-4, h2.is-4 { font-size: 1.5rem; }
 
-.subtitle.is-5 { font-size: 1.25rem; }
+.subtitle.is-5, h2.is-5 { font-size: 1.25rem; }
 
-.subtitle.is-6 { font-size: 1rem; }
+.subtitle.is-6, h2.is-6 { font-size: 1rem; }
 
-.subtitle.is-7 { font-size: 0.75rem; }
+.subtitle.is-7, h2.is-7 { font-size: 0.75rem; }
 
 .heading { display: block; font-size: 11px; letter-spacing: 1px; margin-bottom: 5px; text-transform: uppercase; }
 
@@ -2114,7 +2114,7 @@ a.dropdown-item.is-active, button.dropdown-item.is-active { background-color: #3
 
 .level-item { align-items: center; display: flex; flex-basis: auto; flex-grow: 0; flex-shrink: 0; justify-content: center; }
 
-.level-item .title, .level-item .subtitle { margin-bottom: 0; }
+.level-item .title, .level-item h1, .level-item .subtitle, .level-item h2 { margin-bottom: 0; }
 
 @media screen and (max-width: 768px) { .level-item:not(:last-child) { margin-bottom: 0.75rem; } }
 
@@ -3378,11 +3378,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-white a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-white strong { color: inherit; }
 
-.hero.is-white .title { color: #0a0a0a; }
+.hero.is-white .title, .hero.is-white h1 { color: #0a0a0a; }
 
-.hero.is-white .subtitle { color: rgba(10, 10, 10, 0.9); }
+.hero.is-white .subtitle, .hero.is-white h2 { color: rgba(10, 10, 10, 0.9); }
 
-.hero.is-white .subtitle a:not(.button), .hero.is-white .subtitle strong { color: #0a0a0a; }
+.hero.is-white .subtitle a:not(.button), .hero.is-white h2 a:not(.button), .hero.is-white .subtitle strong, .hero.is-white h2 strong { color: #0a0a0a; }
 
 @media screen and (max-width: 1023px) { .hero.is-white .navbar-menu { background-color: white; } }
 
@@ -3410,11 +3410,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-black a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-black strong { color: inherit; }
 
-.hero.is-black .title { color: white; }
+.hero.is-black .title, .hero.is-black h1 { color: white; }
 
-.hero.is-black .subtitle { color: rgba(255, 255, 255, 0.9); }
+.hero.is-black .subtitle, .hero.is-black h2 { color: rgba(255, 255, 255, 0.9); }
 
-.hero.is-black .subtitle a:not(.button), .hero.is-black .subtitle strong { color: white; }
+.hero.is-black .subtitle a:not(.button), .hero.is-black h2 a:not(.button), .hero.is-black .subtitle strong, .hero.is-black h2 strong { color: white; }
 
 @media screen and (max-width: 1023px) { .hero.is-black .navbar-menu { background-color: #0a0a0a; } }
 
@@ -3442,11 +3442,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-light a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-light strong { color: inherit; }
 
-.hero.is-light .title { color: #363636; }
+.hero.is-light .title, .hero.is-light h1 { color: #363636; }
 
-.hero.is-light .subtitle { color: rgba(54, 54, 54, 0.9); }
+.hero.is-light .subtitle, .hero.is-light h2 { color: rgba(54, 54, 54, 0.9); }
 
-.hero.is-light .subtitle a:not(.button), .hero.is-light .subtitle strong { color: #363636; }
+.hero.is-light .subtitle a:not(.button), .hero.is-light h2 a:not(.button), .hero.is-light .subtitle strong, .hero.is-light h2 strong { color: #363636; }
 
 @media screen and (max-width: 1023px) { .hero.is-light .navbar-menu { background-color: whitesmoke; } }
 
@@ -3474,11 +3474,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-dark strong { color: inherit; }
 
-.hero.is-dark .title { color: whitesmoke; }
+.hero.is-dark .title, .hero.is-dark h1 { color: whitesmoke; }
 
-.hero.is-dark .subtitle { color: rgba(245, 245, 245, 0.9); }
+.hero.is-dark .subtitle, .hero.is-dark h2 { color: rgba(245, 245, 245, 0.9); }
 
-.hero.is-dark .subtitle a:not(.button), .hero.is-dark .subtitle strong { color: whitesmoke; }
+.hero.is-dark .subtitle a:not(.button), .hero.is-dark h2 a:not(.button), .hero.is-dark .subtitle strong, .hero.is-dark h2 strong { color: whitesmoke; }
 
 @media screen and (max-width: 1023px) { .hero.is-dark .navbar-menu { background-color: #363636; } }
 
@@ -3506,11 +3506,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-primary strong { color: inherit; }
 
-.hero.is-primary .title { color: #fff; }
+.hero.is-primary .title, .hero.is-primary h1 { color: #fff; }
 
-.hero.is-primary .subtitle { color: rgba(255, 255, 255, 0.9); }
+.hero.is-primary .subtitle, .hero.is-primary h2 { color: rgba(255, 255, 255, 0.9); }
 
-.hero.is-primary .subtitle a:not(.button), .hero.is-primary .subtitle strong { color: #fff; }
+.hero.is-primary .subtitle a:not(.button), .hero.is-primary h2 a:not(.button), .hero.is-primary .subtitle strong, .hero.is-primary h2 strong { color: #fff; }
 
 @media screen and (max-width: 1023px) { .hero.is-primary .navbar-menu { background-color: #00d1b2; } }
 
@@ -3538,11 +3538,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-link a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-link strong { color: inherit; }
 
-.hero.is-link .title { color: #fff; }
+.hero.is-link .title, .hero.is-link h1 { color: #fff; }
 
-.hero.is-link .subtitle { color: rgba(255, 255, 255, 0.9); }
+.hero.is-link .subtitle, .hero.is-link h2 { color: rgba(255, 255, 255, 0.9); }
 
-.hero.is-link .subtitle a:not(.button), .hero.is-link .subtitle strong { color: #fff; }
+.hero.is-link .subtitle a:not(.button), .hero.is-link h2 a:not(.button), .hero.is-link .subtitle strong, .hero.is-link h2 strong { color: #fff; }
 
 @media screen and (max-width: 1023px) { .hero.is-link .navbar-menu { background-color: #3273dc; } }
 
@@ -3570,11 +3570,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-info a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-info strong { color: inherit; }
 
-.hero.is-info .title { color: #fff; }
+.hero.is-info .title, .hero.is-info h1 { color: #fff; }
 
-.hero.is-info .subtitle { color: rgba(255, 255, 255, 0.9); }
+.hero.is-info .subtitle, .hero.is-info h2 { color: rgba(255, 255, 255, 0.9); }
 
-.hero.is-info .subtitle a:not(.button), .hero.is-info .subtitle strong { color: #fff; }
+.hero.is-info .subtitle a:not(.button), .hero.is-info h2 a:not(.button), .hero.is-info .subtitle strong, .hero.is-info h2 strong { color: #fff; }
 
 @media screen and (max-width: 1023px) { .hero.is-info .navbar-menu { background-color: #209cee; } }
 
@@ -3602,11 +3602,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-success a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-success strong { color: inherit; }
 
-.hero.is-success .title { color: #fff; }
+.hero.is-success .title, .hero.is-success h1 { color: #fff; }
 
-.hero.is-success .subtitle { color: rgba(255, 255, 255, 0.9); }
+.hero.is-success .subtitle, .hero.is-success h2 { color: rgba(255, 255, 255, 0.9); }
 
-.hero.is-success .subtitle a:not(.button), .hero.is-success .subtitle strong { color: #fff; }
+.hero.is-success .subtitle a:not(.button), .hero.is-success h2 a:not(.button), .hero.is-success .subtitle strong, .hero.is-success h2 strong { color: #fff; }
 
 @media screen and (max-width: 1023px) { .hero.is-success .navbar-menu { background-color: #23d160; } }
 
@@ -3634,11 +3634,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-warning a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-warning strong { color: inherit; }
 
-.hero.is-warning .title { color: rgba(0, 0, 0, 0.7); }
+.hero.is-warning .title, .hero.is-warning h1 { color: rgba(0, 0, 0, 0.7); }
 
-.hero.is-warning .subtitle { color: rgba(0, 0, 0, 0.9); }
+.hero.is-warning .subtitle, .hero.is-warning h2 { color: rgba(0, 0, 0, 0.9); }
 
-.hero.is-warning .subtitle a:not(.button), .hero.is-warning .subtitle strong { color: rgba(0, 0, 0, 0.7); }
+.hero.is-warning .subtitle a:not(.button), .hero.is-warning h2 a:not(.button), .hero.is-warning .subtitle strong, .hero.is-warning h2 strong { color: rgba(0, 0, 0, 0.7); }
 
 @media screen and (max-width: 1023px) { .hero.is-warning .navbar-menu { background-color: #ffdd57; } }
 
@@ -3666,11 +3666,11 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .hero.is-danger a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current), .hero.is-danger strong { color: inherit; }
 
-.hero.is-danger .title { color: #fff; }
+.hero.is-danger .title, .hero.is-danger h1 { color: #fff; }
 
-.hero.is-danger .subtitle { color: rgba(255, 255, 255, 0.9); }
+.hero.is-danger .subtitle, .hero.is-danger h2 { color: rgba(255, 255, 255, 0.9); }
 
-.hero.is-danger .subtitle a:not(.button), .hero.is-danger .subtitle strong { color: #fff; }
+.hero.is-danger .subtitle a:not(.button), .hero.is-danger h2 a:not(.button), .hero.is-danger .subtitle strong, .hero.is-danger h2 strong { color: #fff; }
 
 @media screen and (max-width: 1023px) { .hero.is-danger .navbar-menu { background-color: #ff3860; } }
 
