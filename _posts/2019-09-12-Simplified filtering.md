@@ -1,7 +1,7 @@
 ---
 layout: post
 author: ondrej
-title: Day 5 - Stitch functions
+title: Day 5 - Simplified filtering functions
 ---
 ## WTC
 1. Filtering has been simplified, there is now only one function
