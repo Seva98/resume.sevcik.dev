@@ -4,10 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css?{{site.time | date: '%s'}}">
   </head>
   <body>
     {% include navigation.html %}
-    {{ content }}
+    <div id="main-content">
+      <div class="section">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+    {% include scripts.html %}
   </body>
 </html>

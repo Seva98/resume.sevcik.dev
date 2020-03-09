@@ -1,0 +1,107 @@
+{
+    "basics": {
+      "name": "Ing. Ondrej Sevcik",
+      "label": "Programmer",
+      "picture": "",
+      "email": "john@gmail.com",
+      "phone": "(912) 555-4321",
+      "website": "https://sevcik.dev",
+      "summary": "A summary of John Doe...",
+      "location": {
+        "address": "2712 Broadway St",
+        "postalCode": "CA 94115",
+        "city": "San Francisco",
+        "countryCode": "US",
+        "region": "California"
+      },
+      "profiles": [{
+        "network": "LinkedIn",
+        "username": "ondrej-sevcik",
+        "url": "https://www.linkedin.com/in/ondrej-sevcik/"
+      }]
+    },
+    "work": [{
+      "company": "Robotron Datenbank-Software GmbH",
+      "position": "Splunk Developer",
+      "website": "https://robotron.de",
+      "startDate": "01/2019",
+      "endDate": "Present",
+      "summary": ["Fully remote postion in Splunk where I've been working on custom Splunk's Apps for clients in automotive and energetic industries"],
+      "image": ["robotron.png", "splunk.png"],
+      "highlights": [
+        "60% Front End Javascript + SplunkJS (Developing Splunk's apps)",
+        "30% Splunk Search and Configuration",
+        "10% Splunk Python's Backend (Custom search commands)",
+        "Long term project of tracking key production statistics of 2020 electric vehicle",
+        "Long term project of IT tickets tracking app using custom force directed visualization for leader in automotive industry",
+        "Continously worked on internal Splunk's app development focused on energetic management following ISO 50001 standard"
+      ]
+    },{
+        "company": "Code Marketer s.r.o.",
+        "position": "CEO",
+        "website": "http://company.com",
+        "startDate": "05/2012",
+        "endDate": "Present",
+        "summary": "Self-founded company for all other IT and Marketing projects (personal and commercial)",
+        "image": ["vue.png", "swift.png", "marketing.png"],
+        "highlights": [
+          "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
+          "Most notable personal project <a href='https://wodtimecalculator.com' target=_blank>WOD Time Calculator</a> (more in <a href='/projects'>projects</a>)",
+          "Web apps in Vue.js (with MongoDB)",
+          "Blogs in Jekyll or Wordpress",
+          "Online shops in PrestaShop and WooCommerce",
+          "iOS apps in Swift",
+          "Android apps in Java/Kotlin",
+          "Online marketing - focus on content marketing and newsletters",
+          "Social media marketing - focus on Instagram and Facebook sales boosts"
+        ]
+    },{
+        "company": "Profiq s.r.o.",
+        "position": "Software Developer",
+        "website": "http://company.com",
+        "startDate": "10/2018",
+        "endDate": "01/2019",
+        "summary": "After years of working on my own I accepted offer for full-time software developer job to learn to work with team and find out more about new technologies",
+        "image": ["profiq.png", "node.png", "python.png"],
+        "highlights": [
+          "Learned about JavaScript testing with Jest and Mocha",
+          "Greatly improved my git skills",
+          "Worked on a few internal Node.js apps",
+          "Build CI/CD in GitLab for internal apps",
+          "Experienced working with Jenkins, React, GraphQL, SCSS, Pug and more",
+          "Learned to use several frameworks in Python like Behave and Selenium",
+          "Build several end-to-end tests for Avast in Python",
+        ]
+    }],
+    "education": [{
+      "institution": "University",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }]
+  }
