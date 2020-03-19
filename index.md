@@ -2,14 +2,12 @@
 layout: default
 title: Blog
 ---
-# Portfolio
+# Ondrej Sevcik's Resume
 
-## Current status
-
-## Who am I?   
-
-## Work Experience
-
-{% include portfolio.html %}
-
-## Other Experience
+{% include short-intro.html %}
+---
+{% include about.html %}
+---
+{% include work-experience.html %}
+--- 
+{% include education.html %}
