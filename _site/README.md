@@ -1,1 +1,1 @@
-# WTC-Blog
+# Sevcik.dev portfolio
