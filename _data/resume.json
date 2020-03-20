@@ -52,7 +52,6 @@
       "image": ["vue.png", "swift.png", "marketing.png"],
       "highlights": [
         "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
-        "The most notable personal project <a href='https://wodtimecalculator.com' target=_blank>WOD Time Calculator</a>",
         "Web apps in Vue.js (with MongoDB)",
         "Blogs in Jekyll or Wordpress",
         "Online shops in PrestaShop and WooCommerce",
@@ -215,6 +214,7 @@
         "SplunkJS",
         "Python",
         "Splunk's Python SDK",
+        "MQTT",
         "Jekyll",
         "CSS/SCSS/SASS/LESS",
         "Bulma",
@@ -242,12 +242,14 @@
         "Express",
         "Firebase/Firestore",
         "WordPress API",
+        "WooCommerce",
+        "PrestaShop",
         "Bootstrap",
         "Jest",
         "GitLab",
         "CI/CD",
         "YAML",
-        "Jira"
+        "Jira",
       ]
     },
     {
