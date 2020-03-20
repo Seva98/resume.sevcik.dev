@@ -1,0 +1,29 @@
+<div>
+    <h2>Education</h2>
+    {% for education in site.data.resume.education %}
+        <div class="columns is-vcentered">
+                <div class="column noprint">
+                    {% for image in education.image %}
+                        <figure class="image is-portfolio">
+                            <img src="/assets/img/{{image}}">
+                        </figure>
+                    {% endfor %}
+                </div>
+                <div class="column portfolio-text">
+                        <h3>{{education.institution}}</h3>
+                        <p><small>{{education.startDate}} to {{education.endDate}}</small></p> 
+                        <p><b>Field of study:</b> <a href="{{education.website}}"></a>{{education.area}}</p>
+                        {% for summary in education.summary %}
+                            <p>{{summary}}</p>
+                        {% endfor %}
+                        <ul>
+                            {% for highlight in education.highlights %}
+                                <li>
+                                    {{highlight}}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                </div>
+        </div> 
+    {% endfor %}
+</div>

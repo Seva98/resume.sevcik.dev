@@ -5,7 +5,7 @@ title: Blog
 # Ondrej Sevcik's Resume
 
 {% include short-intro.html %}
----
+
 {% include about.html %}
 ---
 {% include work-experience.html %}

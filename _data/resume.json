@@ -220,7 +220,8 @@
         "Bulma",
         "Linux - Bash",
         "GitHub",
-        "Azure DevOps"
+        "Azure DevOps",
+        "Scrum"
       ]
     },
     {
@@ -245,7 +246,8 @@
         "Jest",
         "GitLab",
         "CI/CD",
-        "YAML"
+        "YAML",
+        "Jira"
       ]
     },
     {
@@ -259,6 +261,20 @@
         "Objective-C",
         "Selenium",
         "Behave"
+      ]
+    },
+    {
+      "category": "Familiar with (non-programming)",
+      "names": [
+        "Sketch",
+        "Material design",
+        "iOS design guidelines",
+        "Social media marketing",
+        "Newsletter/List building marketing",
+        "SEO/Content marketing",
+        "Video editing",
+        "QA",
+        "Leading projects"
       ]
     }
   ]
