@@ -8,7 +8,7 @@ git worktree add _site gh-pages
 jekyll build
 # Push
 cd _site
-git add --all
+git add -A
 git commit -m "`date +'%Y-%m-%d'` update"
 git push origin gh-pages --force
 cd ..
