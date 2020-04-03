@@ -4,9 +4,9 @@ layout: default
 <div class="section">
   <div class="container">
     <div class="has-text-centered">
-      {% if post.image %}
+      {% if page.image %}
           {% responsive_image_block %}
-              path: {{ post.image }}
+              path: {{ page.image }}
           {% endresponsive_image_block %}
       {% endif %}
     </div>
