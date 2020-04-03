@@ -6,7 +6,10 @@ git push origin master
 sed -i '' '/^_site/d' .gitignore
 git add _site
 git commit -m "`date +'%Y-%m-%d'` update"
-git subtree push --prefix _site origin gh-pages
+git subtree split --prefix _site -b gh-pages
+git push -f origin gh-pages:gh-pages
+git branch -D gh-pages
+#git subtree push --prefix _site origin gh-pages
 echo "_site/" >> .gitignore
 
 # # Setup gh-pages
