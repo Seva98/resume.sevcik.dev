@@ -1,5 +1,4 @@
 # Master
-echo "_site/" >> .gitignore
 git add -A
 git commit -m "`date +'%Y-%m-%d'` update"
 git push origin master
@@ -14,5 +13,6 @@ git add .
 git commit -a -m "`date +'%Y-%m-%d'` update"
 git push origin gh-pages --force
 cd ..
+echo "_site/" >> .gitignore
 
 
