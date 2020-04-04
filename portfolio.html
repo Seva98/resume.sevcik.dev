@@ -1,0 +1,71 @@
+---
+layout: default
+title: Portfolio
+---
+<h1>Portfolio</h1>
+<div class="section">
+    <div class="columns is-multiline">
+    {% for post in site.posts %}
+            {% if post.title contains "T&C" %}
+                {% continue %}
+            {% endif %}
+            <div class="column is-one-third">
+                {% responsive_image_block %}
+                    path: {{ post.image }}
+                {% endresponsive_image_block %}
+            </div>    
+            <div class="column is-one-third">
+                <h2>{{post.title}}</h2>
+                <article>
+                    {{post.excerpt}}
+                    {% if post.link %}
+                        <a href={{link}}>Link </a>
+                    {% endif %}
+                </article>
+                <br>
+                {% if post.iOSLink %}
+                    <a href={{post.iOSLink}} class="ma12" target="_blank">
+                        <img src="assets/img/appstore.png">
+                    </a>
+                {% endif %}
+                {% if post.androidLink %}
+                    <a href={{post.androidLink}} class="ma-1" target="_blank">
+                        <img src="assets/img/google-play.png">
+                    </a>
+                {% endif %}
+            </div>    
+            <div class="column is-one-third">
+                <table class="table">
+                    {% if post.type %}
+                        <tr>
+                            <th>Type:</th>
+                            <td>{{post.type}}</td>
+                        </tr>
+                    {% endif %}
+                    {% if post.technology %}
+                        <tr>
+                            <th>Technology:</th>
+                            <td>{{post.technology}}</td>
+                        </tr>
+                    {% endif %}
+                    <tr>
+                        <th>Year:</th>
+                        <td>{{post.year}}</td>
+                    </tr>
+                    {% if post.summary %}
+                        {% for summary in post.summary %}
+                            <tr>
+                            {% if forloop.first %}
+                                <th>Summary:</th>
+                            {% else %}
+                                <th style="border:none;"></th>
+                            {% endif %}
+                                <td>{{summary}}</td>
+                            </tr>
+                        {% endfor %}
+                    {% endif %}
+                </table>
+            </div>
+        {% endfor %}
+    </div>   
+</div>
