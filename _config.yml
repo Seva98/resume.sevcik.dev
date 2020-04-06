@@ -3,6 +3,8 @@ name: Sevcik.dev
 description: "Ondrej Sevcik's Portfolio"
 plugins: [jekyll-paginate-v2, jekyll-compress-images, jekyll-responsive-image, jekyll-sitemap]
 excerpt_separator: <!--more-->
+permalink: /:title
+highlighter: rouge
 
 collections:
   category:

@@ -5,14 +5,16 @@ title: Portfolio
 <h1>Portfolio</h1>
 <div class="section">
     <div class="columns is-multiline is-vcentered">
-    {% for post in site.posts %}
+    {% for post in site.categories.portfolio %}
             {% if post.title contains "T&C" %}
                 {% continue %}
             {% endif %}
             <div class="column is-one-third">
-                {% responsive_image_block %}
-                    path: {{ post.image }}
-                {% endresponsive_image_block %}
+                <a href="{{post.url}}">
+                    {% responsive_image_block %}
+                        path: {{ post.image }}
+                    {% endresponsive_image_block %}
+                </a>
             </div>    
             <div class="column is-one-third">
                 <h2>{{post.title}}</h2>
