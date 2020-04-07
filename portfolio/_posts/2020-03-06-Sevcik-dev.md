@@ -14,4 +14,4 @@ Finally in 2020 after several years I've decided to built my online resume/portf
 
 I've used Jekyll for this website as in 2020 it has been my favorite static site generator. `(Vue.js - I still love you ☺️)`
 
-Site is using Bulma for styles which I've been using a lot during 2019/2020.
+Site is using Bulma for styles which I've been using a lot during 2019/2020.<!--more-->
