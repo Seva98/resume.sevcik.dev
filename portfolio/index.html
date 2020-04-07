@@ -4,7 +4,7 @@ title: Portfolio
 ---
 <h1>Portfolio</h1>
 <div class="section">
-    <div class="columns is-multiline is-vcentered">
+    <div class="columns is-multiline is-vcentered noprintbreak">
     {% for post in site.categories.portfolio %}
             {% if post.title contains "T&C" %}
                 {% continue %}
@@ -26,12 +26,12 @@ title: Portfolio
                 </article>
                 <br>
                 {% if post.iOSLink %}
-                    <a href={{post.iOSLink}} class="ma12" target="_blank">
+                    <a href={{post.iOSLink}} class="ma-1 noprint" target="_blank">
                         <img src="/assets/img/appstore.png">
                     </a>
                 {% endif %}
                 {% if post.androidLink %}
-                    <a href={{post.androidLink}} class="ma-1" target="_blank">
+                    <a href={{post.androidLink}} class="ma-1 noprint" target="_blank">
                         <img src="/assets/img/google-play.png">
                     </a>
                 {% endif %}
