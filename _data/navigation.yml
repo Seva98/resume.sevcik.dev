@@ -1,5 +1,7 @@
 - name: Resume
-  link: https://sevcik.dev
+  link: /
+- name: Portfolio
+  link: /portfolio
 - name: this.repo
   link: https://github.com/Seva98/sevcik.dev/tree/master
 - name: LinkedIn

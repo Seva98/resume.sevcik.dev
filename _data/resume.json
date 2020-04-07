@@ -208,7 +208,9 @@
       "category": "Currently working with",
       "names": [
         "JavaScript",
+        "TypeScript",
         "Vue.js",
+        "ES6",
         "MongoDB Stitch",
         "jQuery",
         "SplunkJS",
