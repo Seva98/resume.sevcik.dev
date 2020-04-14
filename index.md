@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Sevcik.dev
 ---
 # Ondrej Sevcik's Resume
 
