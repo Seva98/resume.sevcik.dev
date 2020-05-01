@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automated E2E testing of antivirus</title>
-    <link rel="stylesheet" href="/assets/css/styles.css?1586862723">
+    <title>Splunk Search Reporting App</title>
+    <link rel="stylesheet" href="/assets/css/styles.css?1588327390">
     <link rel="icon" href="/assets/img/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0-beta.4/dist/vue.global.js"></script>
   </head>
   <body>
     <nav class="navbar noprint" role="navigation" aria-label="main navigation">
@@ -56,17 +57,19 @@
 
 
 
-<img width="100%" src="/assets/images/resized/20/e2e.jpg" alt="" data-srcset="    /assets/images/resized/20/e2e.jpg 20w,    /assets/images/resized/90/e2e.jpg 90w,    /assets/images/resized/480/e2e.jpg 480w," class="blur-up lazyautosizes lazyload has-ratio"> 
+<img width="100%" src="/assets/images/resized/20/reporting.jpg" alt="" data-srcset="    /assets/images/resized/20/reporting.jpg 20w,    /assets/images/resized/90/reporting.jpg 90w,    /assets/images/resized/480/reporting.jpg 480w," class="blur-up lazyautosizes lazyload has-ratio"> 
       
     </div>
     <article>
-      <h1>Automated E2E testing of antivirus</h1>
-      <p>27 Feb 2020</p>
-      <p>Creating automated E2E tests in Python with Behave and Selenium for leading antivirus company.</p>
+      <h1>Splunk Search Reporting App</h1>
+      <p>28 Feb 2020</p>
+      <p>Custom Splunk’s app that can generate Microsoft Word and PDF reports from SPL queries.</p>
 
-<p>My work consisted on writing tests for fresh antivirus installation that would mimic user’s behaviour in order to fire events that would display special offers to the user.</p>
+<p>I have been working on that project alone.</p>
 
-<p>The antivirus app has been built with Electron. E2E tests consisted mostly of preparing that app via changing config files, modifying cookies and mirroring user’s action of browsing the web like visiting malicous website, down
+<p>The reporting has been able to convert any Splunk search result to docx format using python-docx library and then convert it to PDF while meeting requirements of ISO 50001 reports.</p>
+
+<p>The reporting has been made available to SPL through custom search commands.
 <!--more--></p>
 
       <!-- 
@@ -255,7 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
     });
 </script>
-<script src="https://sevcik.dev/assets/js/lazysizes.min.js"></script> 
+<script src="http://localhost:4000/assets/js/lazysizes.min.js"></script> 
 <script>
     // FORMATS IMAGE THAT ARE IN THE SAME LINE TO BE NEXT TO EACH OTHER
     (function () {
