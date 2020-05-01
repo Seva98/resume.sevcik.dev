@@ -1,6 +1,5 @@
 ---
 title: iOS APP - EMOM Generator
-permalink: /emom-generator/
 layout: post
 image: assets/img/emom.png
 type: iOS App (paid) - solo

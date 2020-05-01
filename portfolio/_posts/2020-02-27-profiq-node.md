@@ -1,6 +1,5 @@
 ---
 title: Node.js Apps
-permalink: /profiq-node/
 layout: post
 image: assets/img/node.png
 type: Slack Bot + File Upload Server - Solo

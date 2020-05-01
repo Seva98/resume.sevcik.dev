@@ -1,6 +1,5 @@
 ---
 title: Automated E2E testing of antivirus
-permalink: /profiq-testing/
 layout: post
 image: assets/img/e2e.jpg
 type: Automated E2E Tests - Team

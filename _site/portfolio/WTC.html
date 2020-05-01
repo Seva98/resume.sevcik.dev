@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iOS APP - EMOM Generator</title>
-    <link rel="stylesheet" href="/assets/css/styles.css?1586862723">
+    <title>WOD Time Calculator App</title>
+    <link rel="stylesheet" href="/assets/css/styles.css?1588327390">
     <link rel="icon" href="/assets/img/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0-beta.4/dist/vue.global.js"></script>
   </head>
   <body>
     <nav class="navbar noprint" role="navigation" aria-label="main navigation">
@@ -56,18 +57,21 @@
 
 
 
-<img width="100%" src="/assets/images/resized/20/emom.png" alt="" data-srcset="    /assets/images/resized/20/emom.png 20w,    /assets/images/resized/90/emom.png 90w,    /assets/images/resized/480/emom.png 480w,    /assets/images/resized/800/emom.png 800w,    /assets/images/resized/1400/emom.png 1400w," class="blur-up lazyautosizes lazyload has-ratio"> 
+<img width="100%" src="/assets/images/resized/20/wtc.png" alt="" data-srcset="    /assets/images/resized/20/wtc.png 20w,    /assets/images/resized/90/wtc.png 90w,    /assets/images/resized/480/wtc.png 480w,    /assets/images/resized/800/wtc.png 800w," class="blur-up lazyautosizes lazyload has-ratio"> 
       
     </div>
     <article>
-      <h1>iOS APP - EMOM Generator</h1>
-      <p>25 Feb 2020</p>
-      <p>iOS app that generates workouts of EMOM type. It is the type of workouts where you do certain reps of certain movement and rest to the end of the minute.</p>
+      <h1>WOD Time Calculator App</h1>
+      <p>03 Mar 2020</p>
+      <p>WOD Time Calculator is my pet project that already had several major realeases. The latest major update happened in the begging of 2020.</p>
 
-<p>App uses database of different movements and calculates how much reps of each movement can be done in each minute. Number of those reps can be adjusted based on selected difficulty and gender.</p>
+<p>WTC has been created in Vue.js for frontend and with MongoDB Stitch for backend to make app truly serverless.</p>
 
-<p>User can also save favorite workouts to user defaults memory.
-<!--more--></p>
+<p>WTC also includes premium membership section using PayPal API which is connected via MongoDB Stitch.</p>
+
+<p>On top of that MongoDB Stitch is also used for authentitication, cron jobs, webhooks and cloud functions.</p>
+
+<p><a href="https://github.com/Seva98/wod-time-calculator-vue-sample">Sample repo</a> with key things removed<!--more--></p>
 
       <!-- 
         <big>TAGS</big>
@@ -255,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
     });
 </script>
-<script src="https://sevcik.dev/assets/js/lazysizes.min.js"></script> 
+<script src="http://localhost:4000/assets/js/lazysizes.min.js"></script> 
 <script>
     // FORMATS IMAGE THAT ARE IN THE SAME LINE TO BE NEXT TO EACH OTHER
     (function () {

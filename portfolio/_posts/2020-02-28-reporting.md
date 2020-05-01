@@ -1,6 +1,5 @@
 ---
 title: Splunk Search Reporting App
-permalink: /splunk-reporting/
 layout: post
 image: assets/img/reporting.jpg
 type: Splunk App - Solo

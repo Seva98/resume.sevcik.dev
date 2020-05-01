@@ -1,6 +1,5 @@
 ---
 title: iOS APP - Fullscreen Stopwatch
-permalink: /stopwatch/
 layout: post
 image: assets/img/stopwatch.png
 type: iOS App (free) - solo

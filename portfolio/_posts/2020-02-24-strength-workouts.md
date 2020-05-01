@@ -1,6 +1,5 @@
 ---
 title: iOS APP - Strength Workouts
-permalink: /strength-workouts/
 layout: post
 image: assets/img/strength.png
 type: iOS App (paid) - solo
