@@ -27,6 +27,7 @@ defaults:
 
 exclude:
   - _compress_images_cache.yml
+  - svelte-components/
     
 sass:
   style: compressed
