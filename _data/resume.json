@@ -24,14 +24,30 @@
   },
   "work": [
     {
+      "company": "HCL Technologies",
+      "position": "Splunk SOC Onboarding Engineer",
+      "website": "https://www.hcltech.com/",
+      "startDate": "06/2020",
+      "endDate": "Present (ends 11/2020 - 6-month contract)",
+      "summary": ["Fully remote Splunk postion where I've been working on onboarding interal Big Pharma client's applications to the Splunk"],
+      "image": ["hcl.png", "splunk.png"],
+      "highlights": [
+        "Onboarding client's internal applications to Splunk",
+        "Managing full process from the first contact with application manager to the fully onboarded and tested application in Splunk",
+        "Working with universal and heavy forwarders",
+        "Working with Common Information Model",
+        "Following high security standards",
+        "Creating SPL queries for custom alerts",
+        "Creating reports about onboarding status"
+      ]
+    },
+    {
       "company": "Robotron Datenbank-Software GmbH",
       "position": "Splunk Developer",
       "website": "https://robotron.de",
       "startDate": "01/2019",
-      "endDate": "Present",
-      "summary": [
-        "Fully remote postion in Splunk where I've been working on custom Splunk's Apps for clients in automotive and energetic industries"
-      ],
+      "endDate": "Present (still active but very limited hours due to Covid-19)",
+      "summary": ["Fully remote Splunk postion where I've been working on custom Splunk's Apps for clients in automotive and energetic industries"],
       "image": ["robotron.png", "splunk.png", "javascript.png"],
       "highlights": [
         "60% Front End Javascript + SplunkJS (Developing Splunk's apps)",
@@ -52,7 +68,7 @@
       "image": ["vue.png", "swift.png", "marketing.png"],
       "highlights": [
         "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
-        "Web apps in Vue.js (with MongoDB)",
+        "Web apps in Vue.js, React and MongoDB",
         "Blogs in Jekyll or Wordpress",
         "Online shops in PrestaShop and WooCommerce",
         "iOS apps in Swift",
@@ -102,9 +118,7 @@
       "endDate": "Present",
       "summary": "Leading up fitness classes of 10 to 20 people",
       "image": ["fitpark.jpg"],
-      "highlights": [
-        "Stregth and conditiong workouts with focus on long terms progression of clients"
-      ]
+      "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
     },
     {
       "company": "Webgears Germany GmbH",
@@ -127,10 +141,7 @@
       "endDate": "04/2014",
       "summary": "Leading up CrossFit classes of 10 to 20 people",
       "image": ["colliery.png"],
-      "highlights": [
-        "Several CrossFit classes per day for people of all fitness levels",
-        "Managing operations of gym for half of the week"
-      ]
+      "highlights": ["Several CrossFit classes per day for people of all fitness levels", "Managing operations of gym for half of the week"]
     }
   ],
   "education": [
@@ -142,11 +153,7 @@
       "startDate": "2015",
       "endDate": "2017",
       "image": ["opf.png"],
-      "highlights": [
-        "Winner of best Master's Thesis",
-        "Thesis about Online Marketing of Fitness Internet Blog",
-        "Education focused on advanced marketing, management, economics, trade and accounting"
-      ]
+      "highlights": ["Winner of best Master's Thesis", "Thesis about Online Marketing of Fitness Internet Blog", "Education focused on advanced marketing, management, economics, trade and accounting"]
     },
     {
       "institution": "Technical University of Ostrava",
@@ -169,10 +176,7 @@
       "startDate": "2010",
       "endDate": "2011",
       "image": ["vut.png"],
-      "highlights": [
-        "Basics of IT and software development",
-        "Premateruly terminated study, got back to software development few years later"
-      ]
+      "highlights": ["Basics of IT and software development", "Premateruly terminated study, got back to software development few years later"]
     },
     {
       "institution": "Industrial High School of Electrotechnics and IT, Frenstat pod Radhostem",
@@ -181,14 +185,7 @@
       "startDate": "2006",
       "endDate": "2010",
       "image": ["spse.png"],
-      "highlights": [
-        "Computer Science",
-        "Programming of PLC",
-        "Assembly programming",
-        "Websites programming",
-        "Electrical engineering",
-        "University level mathematics"
-      ]
+      "highlights": ["Computer Science", "Programming of PLC", "Assembly programming", "Websites programming", "Electrical engineering", "University level mathematics"]
     }
   ],
   "languages": [
@@ -223,12 +220,14 @@
         "Linux - Bash",
         "GitHub",
         "Azure DevOps",
-        "Scrum"
+        "Scrum",
+        "Unity",
+        "C#"
       ]
     },
     {
       "category": "Currently learning",
-      "names": ["Unity", "C#"]
+      "names": ["React", "ReactNative"]
     },
     {
       "category": "Worked with (a lot)",
@@ -251,22 +250,12 @@
         "GitLab",
         "CI/CD",
         "YAML",
-        "Jira",
+        "Jira"
       ]
     },
     {
       "category": "Worked with (less)",
-      "names": [
-        "React",
-        "ReactNative",
-        "Angular",
-        "Java",
-        "Perl",
-        "Objective-C",
-        "Selenium",
-        "Behave",
-        "SVN"
-      ]
+      "names": ["Angular", "Java", "Perl", "Objective-C", "Selenium", "Behave", "SVN"]
     },
     {
       "category": "Familiar with (non-programming)",
