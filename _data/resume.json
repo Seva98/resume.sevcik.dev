@@ -29,7 +29,9 @@
       "website": "https://www.hcltech.com/",
       "startDate": "06/2020",
       "endDate": "Present (ends 11/2020 - 6-month contract)",
-      "summary": ["Fully remote Splunk postion where I've been working on onboarding interal Big Pharma client's applications to the Splunk"],
+      "summary": [
+        "I've been working for Big Pharma client and being part of Security Operations Team as Splunk consultant where I was making sure that client's application are correctly onboarded the client's Splunk instances.<br>My work involved taking care of full process from the first contact of the application owner to having app fully onboarded, tested and configured in Splunk.<br>I've also worked on multiple tasks related to writing SPL queries to make regular checks of apps that are currently being onboarded and making reports from those queries."
+      ],
       "image": ["hcl.png", "splunk.png"],
       "highlights": [
         "Onboarding client's internal applications to Splunk",
@@ -47,7 +49,9 @@
       "website": "https://robotron.de",
       "startDate": "01/2019",
       "endDate": "Present (still active but very limited hours due to Covid-19)",
-      "summary": ["Fully remote Splunk postion where I've been working on custom Splunk's Apps for clients in automotive and energetic industries"],
+      "summary": [
+        "I've been working as Splunk Developer for several huge clients from automotive industry.<br>Most of the time I've been working with JavaScript developing custom Splunk applications and custom Splunk visualisations on those dashboards.<br>I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management."
+      ],
       "image": ["robotron.png", "splunk.png", "javascript.png"],
       "highlights": [
         "60% Front End Javascript + SplunkJS (Developing Splunk's apps)",
@@ -64,7 +68,7 @@
       "website": "https://sevcik.dev",
       "startDate": "05/2012",
       "endDate": "Present",
-      "summary": "Self-founded company for all other IT and Marketing projects (personal and commercial)",
+      "summary": "Self-funded limited liability company for any smaller clients and my project ideas I've been working on in my free time including multiple multi-platform PWA apps, online shops, websites, online marketing, social media marketing and more.",
       "image": ["vue.png", "swift.png", "javascript.png", "marketing.png"],
       "highlights": [
         "Since 2012 self employed enterpreuner, in 11/2018 switched to Limited Liability Company",
@@ -101,7 +105,7 @@
       "website": "https://lionbridge.com",
       "startDate": "05/2012",
       "endDate": "Present",
-      "summary": "Long term project based work where I have been part of rating team and later QA team for dozens of different projects ranging from evaluating search results to improving voice commands of smart devices",
+      "summary": "Long term project based work where I have been part of rating team and later QA team for dozens of different projects ranging from evaluating search results to improving voice commands of smart devices.<br>Very flexible part-time fully remote search evaluator to fill times in between projects.",
       "image": ["lionbridge.png"],
       "highlights": [
         "Managing work of Czech raters for transcription, voice commands and word categorization projects",
@@ -116,7 +120,7 @@
       "website": "https://www.fitpark.cz/",
       "startDate": "05/2015",
       "endDate": "Present",
-      "summary": "Leading up fitness classes of 10 to 20 people",
+      "summary": "Just a few classes per week as functional fitness coach in local gym.",
       "image": ["fitpark.jpg"],
       "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
     },
