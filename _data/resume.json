@@ -50,7 +50,9 @@
       "startDate": "01/2019",
       "endDate": "Present (still active but very limited hours due to Covid-19)",
       "summary": [
-        "I've been working as Splunk Developer for several huge clients from automotive industry.<br>Most of the time I've been working with JavaScript developing custom Splunk applications and custom Splunk visualisations on those dashboards.<br>I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management."
+        "I've been working as Splunk Developer for several huge clients from automotive industry.<br>Most of the time I've been working with JavaScript developing custom Splunk applications and custom Splunk visualisations on those dashboards.",
+        "I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management.",
+        "During 07-09/2020 I've worked as React Front End Developer for client Linde where I was developing multiple industrial operations dashboards."
       ],
       "image": ["robotron.png", "splunk.png", "javascript.png"],
       "highlights": [
@@ -59,7 +61,8 @@
         "10% Splunk Python's Backend (Custom search commands)",
         "Long term project of tracking key production statistics of 2020 electric vehicle",
         "Long term project of IT tickets tracking app using custom force directed visualization for leader in automotive industry",
-        "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard"
+        "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard",
+        "I've been also included in React projects as Front End Developer"
       ]
     },
     {
