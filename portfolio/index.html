@@ -4,8 +4,8 @@ title: Portfolio
 ---
 <h1>Portfolio</h1>
 <div class="section">
-    <div class="columns is-multiline is-vcentered">
-        {% for post in site.categories.portfolio %}
+    {% for post in site.categories.portfolio %}
+        <div class="columns is-multiline is-vcentered">
             {% if post.title contains "T&C" %}
                 {% continue %}
             {% endif %}
@@ -68,6 +68,6 @@ title: Portfolio
                     {% endif %}
                 </table>
             </div>
-        {% endfor %}
-    </div>   
+        </div>   
+    {% endfor %}
 </div>

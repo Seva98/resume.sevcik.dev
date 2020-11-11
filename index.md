@@ -11,5 +11,5 @@ title: Sevcik.dev
 {% include about.html %}
 ---
 {% include work-experience.html %}
---- 
+---
 {% include education.html %}

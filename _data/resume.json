@@ -28,7 +28,7 @@
       "position": "Splunk SOC Onboarding Engineer",
       "website": "https://www.hcltech.com/",
       "startDate": "06/2020",
-      "endDate": "Present (ends 11/2020 - 6-month contract)",
+      "endDate": "Present (part-time)",
       "summary": [
         "I've been working for Big Pharma client and being part of Security Operations Team as Splunk consultant where I was making sure that client's application are correctly onboarded the client's Splunk instances.",
         "My work involved taking care of full process from the first contact of the application owner to having app fully onboarded, tested and configured in Splunk.",
@@ -47,24 +47,24 @@
     },
     {
       "company": "Robotron Datenbank-Software GmbH",
-      "position": "Splunk Developer",
+      "position": "Splunk & React Developer",
       "website": "https://robotron.de",
       "startDate": "01/2019",
-      "endDate": "Present (active but limited hours due to Covid-19)",
+      "endDate": "10/2020",
       "summary": [
+        "During Q2 & Q3 of 2020 I've worked as React Front End Project Lead for client Linde where I was developing multiple industrial operations dashboards.<br>Both projects included multiple custom visualization dashboards using Plotly.js and Recharts libraries.",
         "I've been working as Splunk Developer for several huge clients from automotive industry.<br>Most of the time I've been working with JavaScript developing custom Splunk applications and custom Splunk visualisations on those dashboards.",
-        "I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management.",
-        "During 07-10/2020 I've worked as React Front End Project Lead for client Linde where I was developing multiple industrial operations dashboards.<br>Both projects included multiple custom visualization dashboards using Plotly.js and Recharts libraries."
+        "I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management."
       ],
       "image": ["robotron.png", "splunk.png", "javascript.png"],
       "highlights": [
-        "60% Front End Javascript + SplunkJS (Developing Splunk's apps)",
+        "I've worked as React Front End Project Lead on two projects for Linde",
+        "60% Front End Modern ES6+ Javascript + SplunkJS (Developing Splunk's apps)",
         "30% Splunk Search and Configuration",
         "10% Splunk Python's (Custom search commands)",
         "Long term project of tracking key production statistics of upcoming electric vehicles",
         "Long term project of IT tickets tracking app using custom force directed visualization for leader in automotive industry",
-        "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard",
-        "I've worked as React Front End Project Lead on two projects for Linde"
+        "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard"
       ]
     },
     {

@@ -1,7 +1,7 @@
 <div>
     <h2>Education</h2>
     {% for education in site.data.resume.education %}
-        <div class="columns is-vcentered">
+        <div class="columns is-vcentered drop-shadow">
                 <div class="column noprint">
                     {% for image in education.image %}
                         <figure class="image is-portfolio">
@@ -25,5 +25,6 @@
                         </ul>
                 </div>
         </div> 
+        <br />
     {% endfor %}
 </div>
