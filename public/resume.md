@@ -1,8 +1,11 @@
 # RESUME
 
 Ondrej Sevcik
+
 Full Stack Splunk, React and (to be) Blockchain Developer
+
 Fully Remote, based in Czech Republic
+
 Details at [resume.sevcik.dev](https://resume.sevcik.dev)
 
 # WORK EXPERIENCE

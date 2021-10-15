@@ -13,5 +13,7 @@ I was going through NEAR documentation and I've noticed that Aurora is creating 
 I am looking forward to hearing back from you and I would love to hear back even with other position offers. I would even love to work as a Rust developer but I will keep this for the future due to the steeper learning curve and lack of experience.
 
 Regards,
+
 Ondrej Sevcik
+
 resume.sevcik.dev
