@@ -34,7 +34,7 @@
             "The goal was to showcase work with my the most favorite React framework Next.js"
           ],
           "highlights": [
-            "I love Next.js and Vercel integration, the process is very convinient from starting new project to deploying",
+            "I love Next.js and Vercel integration, the process is very convenient from starting new project to deploying",
             "My previous Resume website has been created with Jekyll but since then I've worked on several React/Next.js projects that utilized Tailwind and I wanted my Resume website to reflect usage of technologies"
           ]
         },
@@ -73,7 +73,7 @@
           "highlights": [
             "v1 - created as the first ever project after I learned basics of HTML/CSS/JS, just a single 300 line .js file + using jQuery UI components",
             "v2 - improved design with Bootstrap, improved process of core calculations, refactored most of the JavaScript to make site manageable ",
-            "v3 - rebuilt app for mobile, in Swift for iOS and in Kotlin for Android, this was serious rework with huge improvment of calculation algorithm and ability to enter wider variety of workouts",
+            "v3 - rebuilt app for mobile, in Swift for iOS and in Kotlin for Android, this was serious rework with huge improvement of calculation algorithm and ability to enter wider variety of workouts",
             "v4 - the last huge update that was released for web and iOS, input of workouts was simplified and allowed entering even the most advanced workouts, added a lot of functionality like ability to log workouts, save user's workouts, advanced search of workouts, for some time WTC also included subscribers section for access to personal workouts programming"
           ]
         },
@@ -95,8 +95,8 @@
           "summary": ["React application with WordPress Woocommerce bridge for online delivery"],
           "highlights": [
             "React bridge between already working WordPress/Woocommerce website has been made",
-            "Client wanted to have simplfied single-page checkout page with custom admin system where he could plan the routes for his delivery service based on orders",
-            "I've leveraged client's current Woocommerce instalation, created React app that communicated with it via API, for example, I was able to get list products, create orders, get orders or change orders status"
+            "Client wanted to have simplified single-page checkout page with custom admin system where he could plan the routes for his delivery service based on orders",
+            "I've leveraged client's current Woocommerce installation, created React app that communicated with it via API, for example, I was able to get list products, create orders, get orders or change orders status"
           ]
         }
       ]
@@ -168,27 +168,10 @@
             "The first goal was to agree on UI/UX and create library of reusable components build on top of the Material UI",
             "Developed total of eight dashboards across two projects that included several advanced visualization based on client's requirements",
             "Integrating several libraries like Redux for state management, React Router for routing or Plotly.js for custom data visualizations",
-            "Securing access to different parts of applications based on set multitenancy architecture",
+            "Securing access to different parts of applications based on set multi tenancy architecture",
             "Development of both applications has been done in a TypeScript"
           ]
         }
-      ],
-      "startDate": "01/2019",
-      "endDate": "10/2020",
-      "summary": [
-        "During Q2 & Q3 of 2020 I've worked as React Front End Project Lead for client Linde where I was developing multiple industrial operations dashboards.<br>Both projects included multiple custom visualization dashboards using Plotly.js and Recharts libraries.",
-        "I've been working as Splunk Developer for several huge clients from automotive industry.<br>Most of the time I've been working with JavaScript developing custom Splunk applications and custom Splunk visualisations on those dashboards.",
-        "I've been also debugging and creating multiple SPL queries and even creating multiple Custom Search Commands in Python for highly complex computations like cosine distance, correlation matrix etc.<br>On top of that, I've also developed Splunk Reporting application that takes series of Splunk queries and generates ISO 50001 compliant PDF and DOCX report for management."
-      ],
-      "technology": ["robotron.png", "splunk.png", "javascript.png", "react.png"],
-      "highlights": [
-        "I've worked as React Front End Project Lead on two projects for Linde",
-        "60% Front End Modern ES6+ Javascript + SplunkJS (Developing Splunk's apps)",
-        "30% Splunk Search and Configuration",
-        "10% Splunk Python's (Custom search commands)",
-        "Long term project of tracking key production statistics of upcoming electric vehicles",
-        "Long term project of IT tickets tracking app using custom force directed visualization for leader in automotive industry",
-        "Continously worked on Splunk's app development focused on energetic management following ISO 50001 standard"
       ]
     },
     {
@@ -202,7 +185,7 @@
           "technologies": ["javascript", "typescript", "node", "python", "ubuntu"],
           "summary": [
             "After a few years of freelancing, I've been contacted by Profiq for my first ever software developer position",
-            "The intership consisted of creating new features for internal Node.js apps, learning to work with a team and with a git",
+            "The internship consisted of creating new features for internal Node.js apps, learning to work with a team and with a git",
             "After the first month, I've been promoted to full time position"
           ],
           "highlights": [
@@ -221,7 +204,7 @@
             "Worked on creation of automated E2E tests with Python, Behave and Selenium for a client Avast",
             "The goal was to create Python scripts that will mirror user's behavior in the application to fire certain marketing scenarios, these scripts were later used during integration of new versions of Avast to make sure everything is working correctly",
             "First ever experience with a Scrum",
-            "I've been working on this position for only 3 months because I've recieved offer much more interesting offer from Robotron"
+            "I've been working on this position for only 3 months because I've received offer much more interesting offer from Robotron"
           ],
           "highlights": [
             "Even though Profiq is smaller company, the work included a lot communication with Avast and learned me about processes, security and work ethic in such corporations",
@@ -251,10 +234,10 @@
           "startDate": "01/2018",
           "endDate": "12/2019",
           "technologies": ["google"],
-          "summary": ["I've started on different project that was in parallel with Internet Assesor and been doing QA of their work and managing their workflow"],
+          "summary": ["I've started on different project that was in parallel with Internet Assessor and been doing QA of their work and managing their workflow"],
           "highlights": [
             "The work consisted of making sure quality standards follow client's guidelines, making changes to the guidelines and managing raters workload",
-            "The goal was to evaluate sets of audios and making sure transcriptions are gramatically correct and follow set of formating rules"
+            "The goal was to evaluate sets of audios and making sure transcriptions are grammatically correct and follow set of formating rules"
           ]
         }
       ]
@@ -269,7 +252,7 @@
           "endDate": "present",
           "technologies": ["crossfit"],
           "summary": ["Working as CrossFit Level 1 Certified Trainer", "Two classes of CrossFit per week in a nearby gym"],
-          "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
+          "highlights": ["Strength and conditioning workouts with focus on long terms progression of clients"]
         }
       ]
     },
@@ -297,7 +280,7 @@
           "endDate": "04/2015",
           "technologies": ["crossfit"],
           "summary": ["Working as CrossFit Level 1 Certified Trainer", "Teaching CrossFit classes of 10 to 20 people multiple times a day, several days a week"],
-          "highlights": ["Stregth and conditiong workouts with focus on long terms progression of clients"]
+          "highlights": ["Strength and conditioning workouts with focus on long terms progression of clients"]
         }
       ]
     }
@@ -334,7 +317,7 @@
       "startDate": "2010",
       "endDate": "2011",
       "image": ["vut.png"],
-      "highlights": ["Basics of IT and software development", "Premateruly terminated study, got back to software development after a few years"]
+      "highlights": ["Basics of IT and software development", "Prematurely terminated study, got back to software development after a few years"]
     },
     {
       "institution": "Industrial High School of Electrotechnics and IT, Frenstat pod Radhostem",
@@ -344,92 +327,6 @@
       "endDate": "2010",
       "image": ["spse.png"],
       "highlights": ["Computer Science", "Programming of PLC", "Assembly programming", "Websites programming", "Electrical engineering", "University level mathematics"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "skills": [
-    {
-      "category": "Currently working with",
-      "names": [
-        "Splunk",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Vue.js",
-        "ES6",
-        "MongoDB Stitch",
-        "jQuery",
-        "SplunkJS",
-        "Python",
-        "Splunk's Python SDK",
-        "MQTT",
-        "Jekyll",
-        "CSS/SCSS/SASS/LESS",
-        "Bulma",
-        "Linux - Bash",
-        "GitHub",
-        "Azure DevOps",
-        "Scrum",
-        "Unity",
-        "C#"
-      ]
-    },
-    {
-      "category": "Currently learning",
-      "names": ["ReactNative"]
-    },
-    {
-      "category": "Worked with (a lot)",
-      "names": [
-        "Swift 3/4",
-        "Java (Android)",
-        "Kotlin (Android)",
-        "PHP",
-        "MySQL",
-        "NoSQL",
-        "RealmDB",
-        "Node.js",
-        "Express",
-        "Firebase/Firestore",
-        "WordPress API",
-        "WooCommerce",
-        "PrestaShop",
-        "Bootstrap",
-        "Jest",
-        "GitLab",
-        "CI/CD",
-        "YAML",
-        "Jira"
-      ]
-    },
-    {
-      "category": "Worked with (less)",
-      "names": ["Angular", "Java", "Perl", "Objective-C", "Selenium", "Behave", "SVN"]
-    },
-    {
-      "category": "Familiar with (non-programming)",
-      "names": [
-        "Sketch",
-        "Material design",
-        "iOS design guidelines",
-        "Social media marketing",
-        "Newsletter/List building marketing",
-        "SEO/Content marketing",
-        "Video editing",
-        "QA",
-        "Leading projects"
-      ]
     }
   ]
 }
