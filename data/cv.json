@@ -26,6 +26,46 @@
       "description": ["Below you can find a list of recent notable long term projects I've worked on in parallel with full time job"],
       "positions": [
         {
+          "position": "MANGO Core - DHL - Senior Front End Developer",
+          "shortDes": "Angular application",
+          "technologies": ["angular"],
+          "summary": [
+            "I have been part of the 12 member team (3 front end developers) where we developed management focused application used for generation of offers and opportunities.",
+            "Application has leveraged material design with AG Grid table component.",
+            "I have been part of the team between 01/2022-06/2022 until test release after that I've moved to an other project."
+          ],
+          "highlights": [
+            "Development has been completed in agile way using JIRA, having daily Scrum calls, sprint planning and sprint retrospectives."
+          ]
+        },
+        {
+          "position": "Global Call Planning Tool - DHL - Lead Front End Developer",
+          "shortDes": "React application",
+          "technologies": ["react"],
+          "summary": [
+            "I have been lead front end React developer for DHL's Global Call Planning Tool (GCPT) project for two major releases in period of 11/2021-01/2022 and 06/2022-08/2022.",
+            "The GCPT is large scale application with ~200K visits per month (based on similarweb.com)."
+          ],
+          "highlights": [
+            "I have been actively communicating with the client about requirements and followed strict release timelines set by the client.", 
+            "I have worked on several major features development as well as providing support on reported problem tickets."
+          ]
+        },
+        {
+          "position": "Global Call Planning Tool - DHL - Lead Front End Developer",
+          "shortDes": "React application",
+          "technologies": ["react"],
+          "summary": [
+            "I have been lead front end React developer for DHL's Global Call Planning Tool (GCPT) project since November 2021.",
+            "The GCPT is large scale application with ~200K visits per month (based on similarweb.com)."
+          ],
+          "highlights": [
+            "I have been actively communicating with the client about requirements and followed strict release timelines set by the client.", 
+            "I have worked on several major features development as well as providing support on reported problem tickets."
+          ]
+
+        },
+        {
           "position": "This website - resume.sevcik.dev",
           "shortDes": "Next.js/React application",
           "technologies": ["nextjs", "react"],
@@ -122,9 +162,9 @@
             "Onboarding technologies via Universal Forwarder, syslog, API and custom Python scripts",
             "Working with Splunk's configuration files, creating custom indexes/sourcetypes, modifying parsing and transformation rules",
             "Managed process of updating all custom applications from Python 2 to Python 3",
-            "Developed several custom Splunk dashboards to give an overview of current onboarding status",
+            "Developed several custom Splunk dashboards to give an overview of current onboarding status for upper management",
             "The first month of onboarding process to this job position included passing internal Splunk Power User, Splunk Enterprise Admin and Splunk Enterprise Architect coursework with tests",
-            "Daily experience with Splunk's SPL, SNOW, JIRA and Confluence"
+            "Daily experience with Splunk ES, SNOW, JIRA and Confluence"
           ]
         }
       ]

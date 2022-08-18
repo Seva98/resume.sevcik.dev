@@ -8,6 +8,7 @@ const SkillSet = () => {
       <p>The list doesn't cover everything I know but I've wanted to pin point technologies that I've worked the most time with.</p>
       <Title level={3}>Web</Title>
       <div className="mb-6 mx-1 sm:mx-0 ">
+        <Progress text="Angular" start={2022} end={9999} />
         <Progress text="Next.js" start={2020} end={9999} />
         <Progress text="React" start={2019} end={9999} />
         <Progress text="MongoDB" start={2019} end={9999} />
